@@ -30,6 +30,7 @@ a {
 .links {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	gap: 1rem;
 }
 
@@ -42,6 +43,11 @@ a {
 .links a,
 nav > a {
 	transition: transform 0.2s;
+}
+
+.links a:hover,
+nav > a:hover {
+	text-decoration: underline;
 }
 
 .links a:hover,
@@ -172,6 +178,11 @@ main > div {
 
 .tech #second > img {
 	border-radius: 1rem;
+	transition: transform 1s;
+}
+
+.tech #second > img:hover {
+	transform: scale(1.03);
 }
 
 .tech #second > p {
