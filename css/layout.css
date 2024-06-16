@@ -244,6 +244,10 @@ main > div {
 	transition: transform 1s;
 }
 
+.more > div > div:hover {
+	transform: scale(1.08);
+}
+
 .more > div > div img {
 	border-radius: 1rem;
 }
