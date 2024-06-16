@@ -91,15 +91,6 @@
 }
 
 @media (max-width: 768px) {
-	nav {
-		flex-direction: column;
-		padding: 1rem 2rem;
-	}
-
-	nav img {
-		width: 50px;
-	}
-
 	main {
 		padding: 1rem;
 	}
@@ -137,31 +128,5 @@
 	#second > div > img {
 		width: 100%;
 		height: auto;
-	}
-
-	footer {
-		flex-direction: column;
-		padding: 2rem 1rem;
-	}
-
-	.footer-brand {
-		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-		text-align: center;
-	}
-
-	.footer-brand img {
-		width: 50px;
-	}
-
-	.footer-brand h1 {
-		font-size: 24px;
-	}
-
-	.links {
-		flex-direction: column;
-		align-items: center;
-		gap: 0.5rem;
 	}
 }

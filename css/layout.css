@@ -351,9 +351,9 @@ main > div {
 	.footer-brand {
 		flex-direction: column;
 		justify-content: center;
+		margin-bottom: 2rem;
 		align-items: center;
 		text-align: center;
 		gap: 1rem;
-		margin-bottom: 2rem;
 	}
 }
