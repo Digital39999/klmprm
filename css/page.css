@@ -10,13 +10,60 @@
 	margin: 0;
 }
 
-#second {
+#tablica {
+	margin: 7rem 0;
+	padding: 0 10rem;
+}
+
+table {
+	border-collapse: collapse;
+	border-radius: 8px;
+	background-color: #cecece;
+}
+
+th:first-child {
+	border-top-left-radius: 8px;
+}
+
+th:last-child {
+	border-top-right-radius: 8px;
+}
+
+tr {
+	transition: all 0.3s ease;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+
+th {
+	background-color: #b9b9b9;
+	color: #000000;
+	font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+	background-color: #bdbdbd;
+}
+
+tr:hover {
+	background-color: #aaaaaa;
+}
+
+td {
+	font-size: 1em;
+	color: #000000;
+}
+
+#slike {
 	margin-top: 7rem;
 	flex-direction: column;
 	padding: 0 20rem;
 }
 
-#second > div {
+#slike > div {
 	flex: 1;
 	display: flex;
 	flex-direction: row;
@@ -26,7 +73,7 @@
 	margin: 5rem 0;
 }
 
-#second > div > p {
+#slike > div > p {
 	text-align: left;
 	text-align: justify;
 	line-height: 1.5;
@@ -34,13 +81,13 @@
 	width: 40%;
 }
 
-#second > div > img {
+#slike > div > img {
 	border-radius: 1rem;
 	transition: transform 1s;
 	cursor: pointer;
 }
 
-#second > div > img:hover {
+#slike > div > img:hover {
 	transform: scale(1.03);
 }
 
@@ -103,29 +150,29 @@
 		font-size: 32px;
 	}
 
-	#second {
+	#slike {
 		padding: 0 1rem;
 		margin-top: 0;
 	}
 
-	#second > div {
+	#slike > div {
 		flex-direction: column;
 		align-items: center;
 		gap: 2rem;
 		margin: 1rem 0;
 	}
 
-	#second > div#reverse {
+	#slike > div#reverse {
 		flex-direction: column-reverse;
 	}
 
-	#second > div > p {
+	#slike > div > p {
 		width: 100%;
 		text-align: center;
 		font-size: 16px;
 	}
 
-	#second > div > img {
+	#slike > div > img {
 		width: 100%;
 		height: auto;
 	}
